@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/test.cc" "CMakeFiles/test.dir/test.cc.o" "gcc" "CMakeFiles/test.dir/test.cc.o.d"
+  "/Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/load_weights_test.cc" "CMakeFiles/test.dir/load_weights_test.cc.o" "gcc" "CMakeFiles/test.dir/load_weights_test.cc.o.d"
   )
 
 # Targets to which this target links.

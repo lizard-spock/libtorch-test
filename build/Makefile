@@ -129,29 +129,29 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-test.o: test.cc.o
-.PHONY : test.o
+load_weights_test.o: load_weights_test.cc.o
+.PHONY : load_weights_test.o
 
 # target to build an object file
-test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cc.o
-.PHONY : test.cc.o
+load_weights_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/load_weights_test.cc.o
+.PHONY : load_weights_test.cc.o
 
-test.i: test.cc.i
-.PHONY : test.i
+load_weights_test.i: load_weights_test.cc.i
+.PHONY : load_weights_test.i
 
 # target to preprocess a source file
-test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cc.i
-.PHONY : test.cc.i
+load_weights_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/load_weights_test.cc.i
+.PHONY : load_weights_test.cc.i
 
-test.s: test.cc.s
-.PHONY : test.s
+load_weights_test.s: load_weights_test.cc.s
+.PHONY : load_weights_test.s
 
 # target to generate assembly for a file
-test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cc.s
-.PHONY : test.cc.s
+load_weights_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/load_weights_test.cc.s
+.PHONY : load_weights_test.cc.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... load_weights_test.o"
+	@echo "... load_weights_test.i"
+	@echo "... load_weights_test.s"
 .PHONY : help
 
 

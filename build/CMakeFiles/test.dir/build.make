@@ -69,28 +69,28 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/test.cc.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/test.cc.o: /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/test.cc
-CMakeFiles/test.dir/test.cc.o: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/test.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/test.cc.o -MF CMakeFiles/test.dir/test.cc.o.d -o CMakeFiles/test.dir/test.cc.o -c /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/test.cc
+CMakeFiles/test.dir/load_weights_test.cc.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/load_weights_test.cc.o: /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/load_weights_test.cc
+CMakeFiles/test.dir/load_weights_test.cc.o: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/load_weights_test.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/load_weights_test.cc.o -MF CMakeFiles/test.dir/load_weights_test.cc.o.d -o CMakeFiles/test.dir/load_weights_test.cc.o -c /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/load_weights_test.cc
 
-CMakeFiles/test.dir/test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/test.cc > CMakeFiles/test.dir/test.cc.i
+CMakeFiles/test.dir/load_weights_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/load_weights_test.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/load_weights_test.cc > CMakeFiles/test.dir/load_weights_test.cc.i
 
-CMakeFiles/test.dir/test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/test.cc -o CMakeFiles/test.dir/test.cc.s
+CMakeFiles/test.dir/load_weights_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/load_weights_test.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kiwibird/StudyFile/chrisResearch/libtorch-aws-workspace/load_weights_test.cc -o CMakeFiles/test.dir/load_weights_test.cc.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/test.cc.o"
+"CMakeFiles/test.dir/load_weights_test.cc.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/test.cc.o
+test: CMakeFiles/test.dir/load_weights_test.cc.o
 test: CMakeFiles/test.dir/build.make
 test: /Users/kiwibird/StudyFile/chrisResearch/libtorch-building-workspace/libtorch/lib/libc10.dylib
 test: /Users/kiwibird/StudyFile/chrisResearch/libtorch-building-workspace/libtorch/lib/libkineto.a
